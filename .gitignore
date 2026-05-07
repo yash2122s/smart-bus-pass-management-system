@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+venv/
+backend/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.production
+.env.*
+
+# Database (contains real user data)
+transit.db
+*.db
+*.sqlite3
+
+# Build output
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
